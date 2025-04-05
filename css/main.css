@@ -1,4 +1,24 @@
+body{
+   background-color: #FEFCFB;
+}
+
 .is-primary {
-    background-color: rgba(13, 90, 64, 0.829);
+    background-color: #042D21;
     color: white;
+}
+
+.separador-head{
+    margin-top: 8rem;
+}
+
+.boxy{
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 0.8px;
+    border-style: solid;
+    border-radius: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: small;
 }
