@@ -8,7 +8,7 @@ body{
 }
 
 .separador-head{
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 .boxy{
@@ -21,4 +21,30 @@ body{
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+
 }
+
+.head-button {
+        background-color: #042D21;
+        color: white;
+        border-radius: 10em;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 0.7em 2em;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid black;
+        box-shadow: 0 0 0 0 rgb(107, 106, 106);
+      }
+      
+      .head-button:hover {
+        transform: translateY(-4px) translateX(-2px);
+        box-shadow: 2px 5px 0 0 rgb(97, 97, 97);
+      };
+      
+      .head-button:active {
+        transform: translateY(2px) translateX(1px);
+        box-shadow: 0 0 0 0 rgb(119, 119, 119);
+      };
