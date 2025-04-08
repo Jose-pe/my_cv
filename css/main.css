@@ -48,3 +48,16 @@ body{
         transform: translateY(2px) translateX(1px);
         box-shadow: 0 0 0 0 rgb(119, 119, 119);
       };
+
+
+.text-start{
+  text-align: start;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-end{
+  text-align: end;
+}
