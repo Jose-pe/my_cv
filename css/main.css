@@ -61,3 +61,12 @@ body{
 .text-end{
   text-align: end;
 }
+
+.resume-footer{
+  margin-left: 8rem;
+  width: 60%;
+}
+
+.nav-footer{
+  margin-left: 11rem;
+}
