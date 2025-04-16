@@ -7,8 +7,31 @@ body{
     color: white;
 }
 
+.background-principal{
+  background-color: #042D21;
+}
+
+.background-secundario{
+   background-color: #EBE9DA;
+}
 .separador-head{
     margin-top: 12rem;
+}
+.color-text-principal{
+  color: #042D21;
+}
+.color-text-secundario{
+  color: #EBE9DA;
+}
+.title-proyecto{
+  font-size: 2.3rem;
+ 
+  font-weight: bolder;
+}
+.resume-proyectos{
+  
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .boxy{
