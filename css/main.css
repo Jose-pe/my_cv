@@ -93,3 +93,28 @@ body{
 .nav-footer{
   margin-left: 11rem;
 }
+
+.project-button {
+	background-color: #0c7757;
+	border-radius:80px;
+	display:inline-block;
+	cursor:pointer;	
+	
+	font-size:19px;
+	padding:27px 24px;
+	text-decoration:none;
+	
+}
+.project-button:hover {
+	background-color:#086146;
+}
+
+.nav-footeer-item{
+  text-decoration: none !important;
+  color: #042D21 !important;
+}
+
+.nav-footeer-item:hover{
+  text-decoration: none !important;
+  color: #08553e !important;
+}
