@@ -2,6 +2,12 @@ body{
    background-color: #FEFCFB;
 }
 
+a{
+  color: #042D21;
+  text-decoration: none !important;
+  text-decoration-color: #042D21 !important;
+}
+
 .is-primary {
     background-color: #042D21;
     color: white;
