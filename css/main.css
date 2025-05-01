@@ -128,3 +128,14 @@ a{
 .tec{
   color: #042d21af;
 }
+
+.round{
+  border-radius: 18rem 0rem 0rem 18rem !important;
+  background-color: #EBE9DA;
+}
+
+.round-2{
+  border-radius: 0rem 18rem 18rem 0rem !important;
+  background-color: #E0E9E9;
+}
+
