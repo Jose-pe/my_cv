@@ -143,3 +143,20 @@ a{
  margin: 0rem 0rem 0rem 0rem  !important;
  padding: 0rem 0rem 0rem 0rem !important;
 }
+
+.text-especial{
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: normal;
+	color: #042D21;
+
+}
+
+.numero-proyectos{
+  font-size: 3rem;
+  color: #042D21;
+}
+
+.big-icon{
+  font-size: 3rem !important;
+}
