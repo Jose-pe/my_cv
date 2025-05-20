@@ -131,12 +131,13 @@ a{
 
 .round{
   border-radius: 18rem 0rem 0rem 18rem !important;
-  background-color: #EBE9DA;
+  background-color: #ebe9da3a;
+  padding-bottom: 4rem;
 }
 
 .round-2{
   border-radius: 0rem 18rem 18rem 0rem !important;
-  background-color: #E0E9E9;
+  background-color: #e0e9e952;
 }
 
 .section-present{
@@ -163,19 +164,19 @@ a{
 
 .section-present-1{
   background-image: url('/img/prog1.svg');
-  background-position: center ;
+  background-position: start ;
   background-size: contain;
   background-repeat: no-repeat;
-  
+  margin-bottom:  1.5rem;
   
 }
 
 .section-present-2{
-  background-image: url('/img/prog2.jpg');
-  background-position: center ;
+  background-image: url('/img/dev1.png');
+  background-position: end ;
   background-size: contain;
   background-repeat: no-repeat;
- 
+  margin-bottom:  1.5rem;
   
   
 }
