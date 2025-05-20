@@ -176,7 +176,12 @@ a{
   background-position: end ;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom:  1.5rem;
-  
-  
+  margin-bottom:  1.5rem;  
+}
+
+.img-project{}
+
+.img-project-res{
+height: 35%;
+width: auto;
 }
