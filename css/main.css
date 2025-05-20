@@ -160,3 +160,22 @@ a{
 .big-icon{
   font-size: 3rem !important;
 }
+
+.section-present-1{
+  background-image: url('/img/prog1.svg');
+  background-position: center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.section-present-2{
+  background-image: url('/img/prog2.jpg');
+  background-position: center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+  
+  
+}
