@@ -131,13 +131,13 @@ a{
 
 .round{
   border-radius: 18rem 0rem 0rem 18rem !important;
-  background-color: #ebe9da3a;
+  background-color: #ebe9da59;
   padding-bottom: 4rem;
 }
 
 .round-2{
   border-radius: 0rem 18rem 18rem 0rem !important;
-  background-color: #e0e9e952;
+  background-color: #e0e9e971;
 }
 
 .section-present{
@@ -164,24 +164,29 @@ a{
 
 .section-present-1{
   background-image: url('/img/prog1.svg');
-  background-position: start ;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom:  1.5rem;
-  
-}
-
-.section-present-2{
-  background-image: url('/img/dev1.png');
-  background-position: end ;
-  background-size: contain;
+  background-position: left;
+  background-size: 60%;
   background-repeat: no-repeat;
   margin-bottom:  1.5rem;  
 }
 
-.img-project{}
+.section-present-2{
+  background-image: url('/img/dev1.png');
+  background-position: right;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-bottom:  1.5rem;  
+}
 
-.img-project-res{
-height: 35%;
-width: auto;
+@media (max-width: 1440px) {
+  .text-especial{
+    font-size: 1rem;
+  }
+  #name{
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  
 }
