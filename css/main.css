@@ -32,6 +32,10 @@ a{
 .separador-head{
     margin-top: 12rem;
 }
+.separador-project{
+    margin-top: 4rem;
+    margin-bottom: 8rem !important;
+}
 .color-text-principal{
   color: #042D21;
 }
@@ -142,10 +146,10 @@ a{
 }
 
 .tec{
-  color: #042d21af;
+  color: #000000af;
   font-family: "Silkscreen", sans-serif;
   font-weight: 700;
-  font-style: normal;
+  opacity: 0.7;
 }
 
 .round{
@@ -165,8 +169,8 @@ a{
 }
 
 .text-especial{
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
   font-style: normal;
 	color: #042D21;
 
