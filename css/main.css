@@ -6,8 +6,7 @@ body{
   font-family: "Golos Text", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  
+  font-style: normal;  
 }
 
 a{
@@ -15,7 +14,6 @@ a{
   text-decoration: none !important;
   text-decoration-color: #042D21 !important;
 }
-
 
 .is-primary {
     background-color: #042D21;
@@ -35,6 +33,7 @@ a{
 .separador-project{
     margin-top: 4rem;
     margin-bottom: 8rem !important;
+  
 }
 .color-text-principal{
   color: #042D21;
@@ -213,3 +212,4 @@ a{
 @media (max-width: 1250px) {
   
 }
+
