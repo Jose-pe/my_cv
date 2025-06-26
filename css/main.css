@@ -200,6 +200,38 @@ a{
   margin-bottom:  1.5rem;  
 }
 
+@media (prefers-color-scheme: dark) {
+  body{
+      background-color: rgb(29, 32, 32);
+  }
+  .round-2{
+    background-color: #171818;
+  }
+  .round{
+    background-color: #1c1d1c;
+  }
+  .tec{
+    color: #FEFCFB;
+  }
+  .background-principal{
+    background-color: #2d3d39;
+  }
+  .background-secundario{
+    background-color: #bdbbb0;
+  }
+  .boxy{
+    background-color: #25463c;
+  }
+  
+  .fa-circle-dot{
+     color: #929493 !important;
+  }
+  .text-especial{
+    color: #bdbbb0;
+  }
+}
+
+
 @media (max-width: 1440px) {
   .text-especial{
     font-size: 1rem;
