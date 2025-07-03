@@ -247,6 +247,7 @@ a{
   }
   #principal-header{
     width: 100% !important;
+    padding: 1rem !important;
   }
 }
 
