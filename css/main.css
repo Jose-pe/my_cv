@@ -119,6 +119,16 @@ a{
   width: 25%;
   opacity: 45%;
 }
+.project-box-primary{
+border-radius: 24px 0px 0px 24px;
+-webkit-border-radius: 24px 0px 0px 24px;
+-moz-border-radius: 24px 0px 0px 24px;
+}
+.project-box-secondary{
+  border-radius: 0px 24px 24px 0px;
+-webkit-border-radius: 0px 24px 24px 0px;
+-moz-border-radius: 0px 24px 24px 0px;
+}
 .project-button {
 	background-color: #0c7757;
 	border-radius:80px;
@@ -165,6 +175,7 @@ a{
 .section-present{
  margin: 0rem 0rem 0rem 0rem  !important;
  padding: 0rem 0rem 0rem 0rem !important;
+ align-self: center;
 }
 
 .text-especial{
