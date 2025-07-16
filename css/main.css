@@ -268,5 +268,28 @@ border-radius: 24px 0px 0px 24px;
     width: 100% !important;
     padding: 1rem !important;
   }
+  .header-secondary{
+    display: none !important;
+  }
+  #footer-info{
+    width: 80% !important;
+  }
 }
 
+@media(max-width: 1156px){
+  .resume-footer{
+    width: 100% !important;
+    margin-left: 1rem !important;
+  }
+  
+  .nav-footer {
+    margin-left: 3rem;
+  }
+  
+}
+@media(max-width: 900px){
+
+  .tec{
+    font-size: 1.2rem !important;
+  }
+}
