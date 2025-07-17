@@ -12,7 +12,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: 'Open Sans';
+  font-family: 'Heebo';
  /* background: #fafafa;*/
 }
 
@@ -33,7 +33,7 @@ a {
 
 .card {
   font-family: 'Heebo';
-  --bg-filter-opacity: 0.5;
+  --bg-filter-opacity: 0.8;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 20em;
   width: 15em;

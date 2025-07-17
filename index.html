@@ -27,19 +27,15 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item has-text-weight-medium">
+            <a class="navbar-item has-text-weight-medium" href="#principal-header">
               Inicio
             </a>
       
-            <a class="navbar-item has-text-weight-medium">
+            <a href="#ancla-proyectos" class="navbar-item has-text-weight-medium">
               Proyectos
             </a>
             
-            <a class="navbar-item has-text-weight-medium">
-              Habilidades
-            </a>
-
-            <a class="navbar-item has-text-weight-medium">
+           <a href="#contacto-me"  class="navbar-item has-text-weight-medium">
               Contacto
             </a>
            
@@ -78,7 +74,7 @@
           
           <div class="columns is-justify-content-center is-vcentered ml-1">
             <div class="column is-7">
-              <button class="button head-button  is-responsive mr-2">Proyectos <i class="fa-solid fa-diagram-project pl-2" style="color: #e6e6e6;"></i></button>
+              <a href="#ancla-proyectos" class="button head-button  is-responsive mr-2">Proyectos <i class="fa-solid fa-diagram-project pl-2" style="color: #e6e6e6;"></i></a>
               <a href="resources/CV_JoseLuisCorazaoHolgado_2025_v2.pdf" target="_blank" class="button head-button  is-responsive ml-2">   CV  <i class="fa-solid fa-download pl-2" style="color: #e6e6e6;"></i> </a>
             </div>
             <div class="column is-3 ">
@@ -193,13 +189,13 @@
     
       </div>
       <div class="columns is-justify-content-center">
-        <div class="column is-8 text-center">
+        <div class="column is-6 text-center">
           <p class=" is-size-5 has-text-weight-medium">  Aquí puedes ver algunos de los proyectos en los que trabajé o colaboré, actualmente me encuentro en la busqueda de nuevas oportunidades que me permitan crecer como programador y persona.</p>
 
         </div>
       </div>
 </section>
-<section class="cards-wrapper">
+<section class="cards-wrapper" id="ancla-proyectos">
   <div class="card-grid-space">
  
     <a class="card" target="_blank" href="http://tiskoncusco.com" style="--bg-img: url(/img/tiskon.png)">
@@ -217,7 +213,7 @@
     
     <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('/img/mision.png')">
       <div>
-        <h1>Mision Huascaran</h1>
+        <h1>Misión Huascaran</h1>
         <p>Aplicativo web para venta, gestion y control de entradas QR para un evento con 800 asistentes. Soporte en el lugar el día del evento donde no se reportaron incidentes.</p>
         <div class="date">23 Dic 2023 </div>
         <div class="tags mt-2">
@@ -230,7 +226,7 @@
     
     <a class="card" href="https://koalachic.com" target="_blank"  style="--bg-img: url('/img/koala.png')">
       <div>
-        <h1>Kolachic</h1>
+        <h1>Koalachic</h1>
         <p>E-commerce para una tienda de ropa, incluye herramienta de email marketing y optimización para buscadores. </p>
         <div class="date">15 May 2023</div>
         <div class="tags mt-2">
@@ -368,10 +364,10 @@
    
     <footer class="container is-fluid">
       <hr>
-      <div class="columns">
+      <div class="columns" id="contacto-me">
           <div class="column is-12" id="footer-info">
             <div class="section resume-footer">
-             <h3 class="title">Jose Luis Corazao Holgado</h3>
+             <h3 class="title">Jose Luis Corazao</h3>
             <p class="has-text-weight-medium">
               <ul>
                 <li class="has-text-weight-bold mb-1">
@@ -390,19 +386,9 @@
             
             </div>
           </div>
-          <div class="columns">
-            <div class="column is-12">
-              <nav class="nav-footer has-text-weight-medium">
-                <span class=""><a class="nav-footeer-item"  href="">Inicio</a></span>
-                <span class="pl-2"><a class="nav-footeer-item"  href="">Proyectos </a></span>
-                <span class="pl-2"><a class="nav-footeer-item"  href="">Habilidades </a></span>
-                <span class="pl-2"><a class="nav-footeer-item"  href="">Contacto </a></span>
-              </nav>
-            </div>
-         
-          </div>
        
-      </div>
+       
+      
     </footer>
       <script src="/js/main.js"></script>   
    
