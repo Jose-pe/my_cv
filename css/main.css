@@ -35,6 +35,13 @@ a{
     margin-bottom: 8rem !important;
   
 }
+.navbar-item{
+  color: #042D21 !important;
+  font-weight: bolder !important;
+}
+#head-main{
+  padding-top: 3.5rem;
+}
 .color-text-principal{
   color: #042D21;
 }
