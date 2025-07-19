@@ -185,6 +185,9 @@ a {
   .card {
     max-width: calc(100vw - 4rem);
   }
+  .resume-footer{
+    margin-left: 0rem !important;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -194,5 +197,8 @@ a {
   }
   .info h1 {
     margin: 0;
+  }
+   .resume-footer{
+    padding: 0.2rem !important;
   }
 }
