@@ -339,6 +339,9 @@ border-radius: 24px 0px 0px 24px;
     
     padding: 0.1rem !important;
   }
+  #name{
+    font-size: 2rem !important;
+  }
 }
 
 @media(max-width: 400px){
@@ -346,9 +349,7 @@ border-radius: 24px 0px 0px 24px;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
-  #name{
-    font-size: 2rem !important;
-  }
+  
   .is-size-5{
     font-size: 1.1rem !important;
   }
