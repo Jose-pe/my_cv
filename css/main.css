@@ -255,6 +255,13 @@ border-radius: 24px 0px 0px 24px;
   .text-especial{
     color: #bdbbb0;
   }
+  .navbar-item{
+  color: #e2e2e2 !important;
+  
+}
+.primary-icons{
+   color: #e2e2e2 !important;
+}
 }
 
 
