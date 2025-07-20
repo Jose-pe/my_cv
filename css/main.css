@@ -172,11 +172,17 @@ border-radius: 24px 0px 0px 24px;
   border-radius: 18rem 0rem 0rem 18rem !important;
   background-color: #ebe9da59;
   padding-bottom: 4rem;
+  box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
 }
 
 .round-2{
   border-radius: 0rem 18rem 18rem 0rem !important;
   background-color: #e0e9e971;
+  box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 10px 27px -5px rgba(0,0,0,0.75);
 }
 
 .section-present{
@@ -186,7 +192,7 @@ border-radius: 24px 0px 0px 24px;
 }
 
 .text-especial{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   font-style: normal;
 	color: #042D21;
