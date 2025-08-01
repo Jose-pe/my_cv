@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Jose Luis</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Jose Luis Web Dev</title>
 </head>
 <body>
     <nav class="navbar  is-fixed-top" role="navigation" aria-label="main navigation">
@@ -57,8 +58,8 @@
     <section class="container is-fluid mt-2" id="head-main">
       <div class="columns">
         <div class="column is-6 p-6 is-align-content-center" id="principal-header">
-          <div class="columns is-justify-content-center">
-            <div class="column is-10" id="container-box">
+          <div data-aos="fade-up" class="columns is-justify-content-center">
+            <div  class="column is-10" id="container-box">
               <span class="boxy m-5"><i class="fa-solid fa-code pr-2" style="color: #000000;"></i>Desarrollo web de alto performance </span>
               <h1 class="title is-1 p-4 mt-5" id="name">Jose Luis Corazao</h1>
               <span class="primary-icons is-large p-4  mt-4 is-light"> <a href="https://www.linkedin.com/in/jose-pe/" target="_blank"> <i class="icons fa-brands fa-linkedin fa-2xl m-2"></i></a></span> 
@@ -72,7 +73,7 @@
           
           </div>
           
-          <div class="columns is-justify-content-center is-vcentered ml-1">
+          <div data-aos="fade-up" class="columns is-justify-content-center is-vcentered ml-1">
             <div class="column is-7">
               <a href="#ancla-proyectos" class="button head-button  is-responsive mr-2">Proyectos <i class="fa-solid fa-diagram-project pl-2" style="color: #e6e6e6;"></i></a>
               <a href="resources/CV_JoseLuisCorazaoHolgado_2025_v2.pdf" target="_blank" class="button head-button  is-responsive ml-2">   CV  <i class="fa-solid fa-download pl-2" style="color: #e6e6e6;"></i> </a>
@@ -84,17 +85,17 @@
         </div>
         <div class="column is-6 is-align-content-flex-center pt-own header-secondary">
           <div class="columns section-present is-justify-content-center">           
-                <div class="column is-5 section-present-1">
+                <div data-aos="fade-up" class="column is-5 section-present-1">
                
                 </div>
                
-                <div class="column is-5 round">
+                <div data-aos="fade-up" class="column is-5 round">
                     <div class="columns">
                       <div class="column is-11 text-end">
                       <i class="fa-solid fa-laptop-code fa-2xl big-icon text-end pt-6 pl-5 pb-2" style="color: #042D21;"></i>
                       </div>
                   </div>
-                  <div class="columns">
+                  <div  class="columns">
                          <div class="column is-11">
                           <p class="text-start p-2 pl-6 text-especial"><i class="fa-solid fa-quote-left" style="color: #2e2d29;"></i> Proyectos sólidos, escalables y desplegados en entornos reales. <i class="fa-solid fa-quote-right" style="color: #282b2e;"></i></p>
                       </div>
@@ -108,7 +109,7 @@
           </div>
 
         <div class="columns section-present">
-          <div class="column is-5 round-2">
+          <div data-aos="fade-up" class="column is-5 round-2">
              <div class="columns">
                        <div class="column is-11">
                           <p class="text-start pt-6 pl-5 pb-2"><i class="fa-regular fa-lightbulb fa-2xl   big-icon" style="color: #042D21;"></i></p>
@@ -124,7 +125,7 @@
                 
                 
           </div>
-          <div class="column is-5  section-present-2">
+          <div data-aos="fade-up" class="column is-5  section-present-2">
                 
           </div>
         </div>
@@ -132,7 +133,7 @@
       </div>      
     </section>
     <hr>
-    <section class="container mt-2">
+    <section data-aos="fade-down" class="container mt-2">
      
          <nav class="level is-mobile pt-4">
         <div class="level-item has-text-centered">
@@ -181,7 +182,7 @@
       </div>
     </section>
 
- <section class="container separador-head">
+ <section data-aos="fade-up" class="container separador-head">
    <div class="columns mt-5">
         <div class="column is-12">
           <h2 class="title is-2 text-center" id="title-section">Mis últimos proyectos</h2>
@@ -195,7 +196,7 @@
         </div>
       </div>
 </section>
-<section class="cards-wrapper" id="ancla-proyectos">
+<section data-aos="fade-up" class="cards-wrapper" id="ancla-proyectos">
   <div class="card-grid-space">
  
     <a class="card" target="_blank" href="http://tiskoncusco.com" style="--bg-img: url(/img/tiskon.png)">
@@ -277,10 +278,18 @@
     </a>
   </div>
 
-  
-
 </section>
-
+ <div class="columns  is-justify-content-center">
+  <div class="column is-12 text-center">
+  
+                <a class="button head-button is-responsive">
+                  <strong class="text is-6">Más proyectos</strong>
+                </a>
+              
+              
+  </div>
+ 
+  </div>
 
       <!--
     <section class="container separador-head">
@@ -362,7 +371,7 @@
     </section>-->
     
    
-    <footer class="container is-fluid">
+    <footer data-aos="fade-up" class="container is-fluid">
       <hr>
       <div class="columns" id="contacto-me">
           <div class="column is-12" id="footer-info">
@@ -391,6 +400,9 @@
       
     </footer>
       <script src="/js/main.js"></script>   
-   
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+      AOS.init();
+      </script>
 </body>
 </html>
