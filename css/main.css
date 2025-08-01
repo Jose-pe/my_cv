@@ -329,6 +329,9 @@ border-radius: 24px 0px 0px 24px;
   .tec{
     font-size: 0.7rem !important;
   }
+  .separador-head{
+    margin-top: 6rem;
+}
 }
 
 @media(max-width: 500px){
