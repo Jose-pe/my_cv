@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Certificados Jose-Dev</title>
+  
+  <!-- Bulma CSS Framework -->
+   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <!-- FontAwesome (para los iconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    /* Ajustes menores de estilo personalizado */
+    .card-image img {
+      object-fit: cover;
+      height: 200px;
+      width: 100%;
+      cursor: pointer;
+    }
+    .modal-card-body img {
+      width: 100%;
+      height: auto;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado / Hero Section -->
+  <section class="hero is-link is-medium" style=" background-color: #042D21;">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-2">
+          <i class="fa-solid fa-award"></i> Mis Certificados
+        </h1>
+      
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Principal de Certificados -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Cuadrícula Responsiva (Grid) -->
+      <div class="columns is-multiline">
+
+        <!-- CERTIFICADO 1 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cer_ciber.png" sizes="800 x 400"
+                  alt="Curso de introduccion a la Ciberseguridad"
+                  onclick="openModal(this.src, 'Curso de introduccion a la Ciberseguridad')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Introducción a la Ciberseguridad</p>
+                  <p class="subtitle is-6 text-muted">Emisor: <strong class="has-text-grey-dark">Cisco</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Curso de introducción a la Ciberseguridad.
+                <br>
+                <time datetime="2024-01"><i class="fa-regular fa-calendar"></i> Enero 2024</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class="card-footer-item color-text-principal" onclick="openModal('/img/cer_ciber.png')">
+                <i class=" primary-icons fa-solid fa-eye fa-lg mr-2"></i> VER
+              </a>
+              <a href="https://www.credly.com/badges/31cf0aee-1e30-4ebe-babf-cfc0f394218d" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <!-- CERTIFICADO 2 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cert_ud_lara.png" 
+                  alt="Creación de sistemas web con PHP y Laravel"
+                  onclick="openModal(this.src, 'Curso de PHP y Laravel')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Curso de PHP y Laravel</p>
+                  <p class="subtitle is-6">Emisor: <strong class="has-text-grey-dark">Udemy</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Creación de sistemas web con PHP y Laravel.
+                <br>
+                <time datetime="2022-04"><i class="fa-regular fa-calendar"></i> Abril 2022</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class=" color-text-principal card-footer-item" onclick="openModal('/img/cert_ud_lara.png', 'Curso de PHP y Laravel');  return true;">
+                <i class="primary-icons fa-solid fa-eye mr-2"></i> VER
+              </a>
+              <a href="/img/ud_cert_laravel.pdf" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <!-- CERTIFICADO 3 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cert_go_cloud.png" 
+                  alt="Certificado de Cloud Computing"
+                  onclick="openModal(this.src, 'Curso de Cloud Computing')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Curso de Cloud Computing</p>
+                  <p class="subtitle is-6">Emisor: <strong class="has-text-grey-dark">Google</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Fundamentos de computación en la nube.
+                <br>
+                <time datetime="2015-12"><i class="fa-regular fa-calendar"></i> Diciembre 2015</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class="color-text-principal card-footer-item" onclick="openModal('/img/cert_go_cloud.png'); 'Curso de Cloud Computing';  return true;">
+                <i class="primary-icons fa-solid fa-eye mr-2"></i> VER
+              </a>
+              <a href="/img/cloudgoogle.pdf" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+      </div><!-- Fin de columns -->
+    </div>
+  </section>
+
+
+   <section class="section mt-4">
+    <div class="container">
+      
+      <!-- Cuadrícula Responsiva (Grid) -->
+      <div class="columns is-multiline">
+
+        <!-- CERTIFICADO 1 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cert_se_servers.png"
+                  alt="experto en redes y servidores debian cusco"
+                  onclick="openModal(this.src, 'Curso de introduccion a la Ciberseguridad')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Experto en servidores</p>
+                  <p class="subtitle is-6 text-muted">Emisor: <strong class="has-text-grey-dark">Senati</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Curso de Servidores y redes.
+                <br>
+                <time datetime="2024-01"><i class="fa-regular fa-calendar"></i> Setipembre 2024</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class="card-footer-item color-text-principal" onclick="openModal('/img/cert_se_servers.png')">
+                <i class=" primary-icons fa-solid fa-eye fa-lg mr-2"></i> VER
+              </a>
+              <a href="/img/cert_se_servers.png" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <!-- CERTIFICADO 2 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cert_go_mkt.png" 
+                  alt="creacion aplicaciones web cusco"
+                  onclick="openModal(this.src, 'Curso Básico de Marketing Digital')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Curso Básico de Marketing Digital</p>
+                  <p class="subtitle is-6">Emisor: <strong class="has-text-grey-dark"></strong>Google</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Fundamentos de Merkrting Digital.
+                <br>
+                <time datetime="2022-04"><i class="fa-regular fa-calendar"></i> Enero 2023</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class=" color-text-principal card-footer-item" onclick="openModal('/img/cert_ud_lara.png', 'Curso de PHP y Laravel');  return true;">
+                <i class="primary-icons fa-solid fa-eye mr-2"></i> VER
+              </a>
+              <a href="/img/ud_cert_laravel.pdf" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <!-- CERTIFICADO 3 -->
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img 
+                  src="/img/cert_khip.png" 
+                  alt="Certificado de Cloud Computing"
+                  onclick="openModal(this.src, 'Curso de Cloud Computing')"
+                >
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">Título Profesional Técnico</p>
+                  <p class="subtitle is-6">Emisor: <strong class="has-text-grey-dark">D.R.E.G</strong></p>
+                </div>
+              </div>
+              <div class="content">
+                Título Técnico en Informática.
+                <br>
+                <time datetime="2015-12"><i class="fa-regular fa-calendar"></i> Diciembre 2015</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="#" class="color-text-principal card-footer-item" onclick="openModal('/img/cert_khip.png'); 'Curso de Cloud Computing';  return true;">
+                <i class="primary-icons fa-solid fa-eye mr-2"></i> VER
+              </a>
+              <a href="/img/cloudgoogle.pdf" class="color-text-principal card-footer-item" target="_blank">
+                <i class="primary-icons fa-solid fa-shield-halved mr-2"></i> VALIDAR
+              </a>
+            </footer>
+          </div>
+        </div>
+
+      </div><!-- Fin de columns -->
+    </div>
+  </section>
+
+  <!-- Modal para visualización ampliada de la imagen -->
+  <div id="cert-modal" class="modal">
+    <div class="modal-background" onclick="closeModal()"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title" id="modal-title"></p>
+        <button class="delete" aria-label="close" onclick="closeModal()"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image">
+          <img id="modal-img" src="" alt="Vista previa del certificado">
+        </figure>
+      </section>
+      
+    </div>
+  </div>
+
+  <!-- Script para la interactividad del Modal -->
+  <script>
+    function openModal(imgSrc, title) {
+      document.getElementById('modal-img').src = imgSrc;
+      
+      document.getElementById('cert-modal').classList.add('is-active');
+    }
+
+    function closeModal() {
+      document.getElementById('cert-modal').classList.remove('is-active');
+    }
+
+    // Permitir cerrar el modal al presionar la tecla ESC
+    document.addEventListener('keydown', function (event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
