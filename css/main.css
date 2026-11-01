@@ -2395,7 +2395,7 @@ border-radius: 24px 0px 0px 24px;
 }
 }
 
-@media (prefers-color-scheme: Light) {
+@media (prefers-color-scheme: light) {
 
   body{
       background-color: rgb(29, 32, 32);
@@ -2409,29 +2409,30 @@ border-radius: 24px 0px 0px 24px;
   }
 
   .navbar-menu{
-    background-color: #9e9e9e   !important;
+    background-color: #1b2735   !important;
+    color: #41b392 !important;
     
   }
   
   .navbar-brand{
-    background-color: #9e9e9e  !important;
+    background-color: #1b2735 !important;
   }
 
   .navbar-menu:hover{
-    background-color: #9e9e9e   !important;
+    background-color: #1b2735  !important;
 
   }
   
   .navbar-brand:hover{
-    background-color: #9e9e9e  !important;
+    background-color: #1b2735  !important;
   }
   .navbar-item {
-    color: #042D21  !important;
-    BACKGROUND-COLOR: #9e9e9e  !important;
+    color: #1d916f !important;
+    BACKGROUND-COLOR: #1b2735   !important;
   }
 
   .navbar-item:hover {
-    color: #042D21 !important;
+    color: #0c7757  !important;
   }
 
   .fa-quote-right{
@@ -2465,7 +2466,7 @@ border-radius: 24px 0px 0px 24px;
     color: #929493 !important;
   }
   .navbar-item{
-  color: #042D21 !important;
+  color: #34a785 !important;
   
 }
 .tag{
