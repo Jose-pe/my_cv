@@ -865,7 +865,7 @@
   --bulma-grey-darker: hsl(221, 14%, 21%);
   --bulma-grey-dark: hsl(221, 14%, 29%);
   --bulma-grey: hsl(221, 14%, 48%);
-  --bulma-grey-light: hsl(221, 14%, 71%);
+  --bulma-grey-light: hsl(0, 0%, 99%);
   --bulma-grey-lighter: hsl(221, 14%, 86%);
   --bulma-white-ter: hsl(221, 14%, 96%);
   --bulma-white-bis: hsl(221, 14%, 98%);
