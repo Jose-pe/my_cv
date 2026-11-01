@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
 :root {
-  --color: #042D21;
+  --color: #ffffff;
   --transition-time: 0.5s;
 }
 
@@ -79,7 +79,7 @@ a {
 }
 .card .tags .tag {
   font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
+  background: rgba(12, 134, 19, 0.678);
   border-radius: 0.3rem;
   padding: 0 0.5em;
   margin-right: 0.5em;
@@ -88,8 +88,8 @@ a {
 }
 
 .card:hover .tags .tag {
-  background: var(--color);
-  color: white;
+  background: #121313;
+  color: rgb(207, 149, 24);
 }
 
 .card .date {
@@ -116,13 +116,13 @@ a {
 }
 
 .card:before {
-  background: #ddd;
+  background: #dddddd21;
   width: 250%;
   height: 250%;
 }
 
 .card:after {
-  background: white;
+  background: rgba(255, 255, 255, 0.082);
   width: 200%;
   height: 200%;
 }
